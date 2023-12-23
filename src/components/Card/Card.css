@@ -1,0 +1,49 @@
+.quote-box {
+  position: relative;
+  border-radius: 1rem;
+  width: 45rem;
+  height: 17rem;
+  border: 0.5rem double gray;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text {
+  font-weight: bold;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+
+.author {
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.twitter {
+  color: gray;
+}
+
+.twitter:hover {
+  color: rgb(83, 83, 83);
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.new-quote {
+  outline: none;
+  border: 2px solid gray;
+  position: absolute;
+  bottom: 2rem;
+  background-color: transparent;
+}
+
+.new-quote:hover {
+  border: 2px solid rgb(83, 83, 83);
+}
